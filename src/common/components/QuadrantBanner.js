@@ -22,7 +22,7 @@ function QuadrantBanner(props) {
       }}
     >
       <a href="/" className="banner-logo-link">
-        <img className="banner-logo" src="/sentiozalogo.png" alt="Sentioza" />
+        <img className="banner-logo" src="/uprevollogo.png" alt="Sentioza" />
       </a>
       <h1>{props.title}</h1>
     </div>

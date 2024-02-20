@@ -25,7 +25,7 @@ function InternalDrawer() {
         open={open}
         footer={
           <div className="footer">
-            © {currentYear} Sentioza LLC. All rights reserved.
+            © {currentYear} Uprevol Technologies LLC. All rights reserved.
           </div>
         }
         footerStyle={{ padding: 0 }}
@@ -34,7 +34,7 @@ function InternalDrawer() {
           <img
             height={150}
             className="drawer-logo"
-            src="/sentiozalogo.png"
+            src="/uprevollogo.png"
             alt="Sentioza"
           />
           <div className="drawer-links">

@@ -48,7 +48,7 @@ function InternalNavbar() {
         </div>
         <div className="mobile-navbar">
           <a href="/">
-            <img src="/sentiozalogotext.png" height={30} alt="Sentioza" />
+            <img src="/uprevollogotext.png" height={30} alt="Sentioza" />
           </a>
           <InternalDrawer />
         </div>

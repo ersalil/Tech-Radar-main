@@ -11,7 +11,7 @@ function LanguagesAndFrameworks() {
       <div className="navbar-mobile-main">
         <div className="navbar-mobile-wrapper">
           <a href="/">
-            <img src="/sentiozalogotext.png" height={30} alt="Sentioza" />
+            <img src="/uprevollogotext.png" height={30} alt="Sentioza" />
           </a>
           <InternalDrawer />
         </div>

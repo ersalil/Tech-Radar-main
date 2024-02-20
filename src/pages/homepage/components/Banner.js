@@ -5,7 +5,7 @@ function Banner() {
   return (
     <div className="homepage-banner">
       <a href="/" className="banner-logo-link">
-        <img className="banner-logo" src="/sentiozalogo.png" alt="Sentioza" />
+        <img className="banner-logo" src="/uprevollogo.png" alt="Sentioza" />
       </a>
       <p>Volume 1</p>
       <h1>SRE | Technology Radar</h1>

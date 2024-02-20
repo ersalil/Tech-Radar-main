@@ -40,7 +40,7 @@ function App() {
         </Routes>
       </Router>
       <div className="footer">
-        © {currentYear} Sentioza LLC. All rights reserved.
+        © {currentYear} Uprevol Technologies LLC. All rights reserved.
       </div>
     </Fragment>
   );

@@ -1,0 +1,87 @@
+.homepage-banner {
+  background-image: linear-gradient(90deg, #ffffff00 50%, #ffffff 85%),
+    url("../../../../public/images/banners/homepage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5%;
+  gap: 10px;
+  position: relative;
+  box-shadow: 0 0 1px black;
+}
+
+.homepage-banner h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px black;
+}
+
+.homepage-banner p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  text-shadow: 1px 1px black;
+}
+
+.banner-logo-link {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  height: 160px;
+  right: 20px;
+  position: absolute;
+}
+.banner-logo {
+  height: 100%;
+}
+
+@media only screen and (max-width: 876px) {
+  .homepage-banner p {
+    font-size: 1rem;
+  }
+
+  .homepage-banner h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-logo-link {
+    display: none;
+  }
+
+  .homepage-banner {
+    background-image: url("../../../../public/images/banners/homepage.jpg");
+  }
+}
+
+@media only screen and (max-width: 474px) {
+  .homepage-banner p {
+    font-size: 0.75rem;
+  }
+
+  .homepage-banner h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .homepage-banner p {
+    font-size: 0.7rem;
+  }
+
+  .homepage-banner h1 {
+    font-size: 1.25rem;
+  }
+}

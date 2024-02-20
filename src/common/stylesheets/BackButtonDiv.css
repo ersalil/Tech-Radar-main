@@ -1,0 +1,36 @@
+.quadrant-back {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  box-shadow: 0px 0px 2px lightgray;
+  min-height: 50px;
+}
+
+.quadrant-back-btn {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  color: black;
+  padding: 0 10px;
+  margin-left: 10%;
+}
+
+.quadrant-back p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.back-btn-arrow {
+  color: orangered;
+}
+
+@media only screen and (max-width: 992px) {
+    .quadrant-back-btn{
+        margin-left: 10px;
+    }    
+}

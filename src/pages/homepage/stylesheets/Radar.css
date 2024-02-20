@@ -1,0 +1,434 @@
+.homepage-radar-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.homepage-radar-rings p {
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.homepage-radar {
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1064px;
+  position: relative;
+}
+
+.q1 {
+  transform: rotate(270deg);
+}
+
+.q2 {
+  transform: rotate(0deg);
+}
+
+.q3 {
+  transform: rotate(180deg);
+}
+
+.q4 {
+  transform: rotate(90deg);
+}
+
+.homepage-radar-rings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: 40px;
+}
+
+.homepage-radar-rings .left-rings,
+.homepage-radar-rings .right-rings {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: baseline;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+}
+
+.homepage-radar-rings .right-rings {
+  justify-content: flex-end;
+}
+
+.left-rings .lrt1 {
+  margin-right: 35px;
+}
+
+.left-rings .lrt2 {
+  margin-right: 80px;
+}
+
+.left-rings .lrt3 {
+  margin-right: 120px;
+}
+
+.right-rings .rrt4 {
+  margin-left: 35px;
+}
+
+.right-rings .rrt3 {
+  margin-left: 80px;
+}
+
+.right-rings .rrt2 {
+  margin-left: 120px;
+}
+
+
+.blip-box img {
+  height: 46px;
+  width: 46px;
+}
+
+.blip-box {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.blips-description {
+  margin-top: 10px;
+}
+
+a {
+  color: inherit; /* Makes the hyperlink color inherit from its parent */
+  text-decoration: none; /* Removes the underline */
+}
+
+a:focus {
+  outline: none;
+}
+.quadrant-title-1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.quadrant-title-2 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.quadrant-title-3 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.quadrant-title-4 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.category-arrow {
+  font-size: 1rem;
+  color: orangered;
+}
+
+.homepage-radar h3 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  padding: 0;
+  margin: 0;
+}
+
+.q1.active,
+.quadrant-title-1.active,
+.homepage-radar-rings .left-rings.active {
+  opacity: 1;
+}
+
+.q2.active,
+.quadrant-title-2.active,
+.homepage-radar-rings .right-rings.active {
+  opacity: 1;
+}
+
+.q3.active,
+.quadrant-title-3.active,
+.homepage-radar-rings .left-rings.active {
+  opacity: 1;
+}
+
+.q4.active,
+.quadrant-title-4.active,
+.homepage-radar-rings .right-rings.active {
+  opacity: 1;
+}
+.homepage-radar-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 5cap;
+}
+
+.homepage-radar-rings p {
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.homepage-radar {
+  /* display: flex; */
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1064px;
+  position: relative;
+}
+
+.q1 {
+  transform: rotate(270deg);
+}
+
+.q2 {
+  transform: rotate(0deg);
+}
+
+.q3 {
+  transform: rotate(180deg);
+}
+
+.q4 {
+  transform: rotate(90deg);
+}
+
+.homepage-radar-rings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: 40px;
+}
+
+.homepage-radar-rings .left-rings,
+.homepage-radar-rings .right-rings {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: baseline;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+}
+
+.homepage-radar-rings .right-rings {
+  justify-content: flex-end;
+}
+
+.left-rings .lrt1 {
+  margin-right: 40px;
+  margin-left: 5px;
+}
+
+.left-rings .lrt2 {
+  margin-right: 85px;
+}
+
+.left-rings .lrt3 {
+  margin-right: 125px;
+}
+
+.right-rings .rrt4 {
+  margin-left: 35px;
+  margin-right: 10px;
+}
+
+.right-rings .rrt3 {
+  margin-left: 85px;
+}
+
+.right-rings .rrt2 {
+  margin-left: 125px;
+}
+
+.blips-info-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.blip-box img {
+  height: 46px;
+  width: 46px;
+}
+
+.blip-box {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.blips-description {
+  margin-top: 10px;
+}
+
+.quadrant-title-1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.quadrant-title-2 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.quadrant-title-3 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.quadrant-title-4 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.category-arrow {
+  font-size: 1rem;
+  color: orangered;
+}
+
+.homepage-radar h3 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  padding: 0;
+  margin: 0;
+}
+
+.q1.active,
+.quadrant-title-1.active,
+.homepage-radar-rings .left-rings.active {
+  opacity: 1;
+}
+
+.q2.active,
+.quadrant-title-2.active,
+.homepage-radar-rings .right-rings.active {
+  opacity: 1;
+}
+
+.q3.active,
+.quadrant-title-3.active,
+.homepage-radar-rings .left-rings.active {
+  opacity: 1;
+}
+
+.q4.active,
+.quadrant-title-4.active,
+.homepage-radar-rings .right-rings.active {
+  opacity: 1;
+}
+
+.blip {
+  cursor: pointer;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.blip-number {
+  position: absolute;
+  z-index: 4;
+  color: white;
+  font-size: 10px;
+}
+
+.homepage-radar-container.blip-hovered .blip:not(:hover) {
+  opacity: 0.5;
+}
+
+.ant-tooltip {
+  --antd-arrow-background-color: #173c4d !important;
+}
+.ant-tooltip-inner {
+  background-color: #173c4d !important;
+}
+
+/* When a quadrant is hovered, reduce opacity of all other quadrants */
+.homepage-radar-container.hovered .q1:not(.active),
+.homepage-radar-container.hovered .q2:not(.active),
+.homepage-radar-container.hovered .q3:not(.active),
+.homepage-radar-container.hovered .q4:not(.active) {
+  opacity: 0.5;
+}
+
+/* When a quadrant is hovered, reduce opacity of all blips not belonging to that quadrant */
+.homepage-radar-container.hovered .blip:not(.active-quadrant-blip) {
+  opacity: 0.5;
+}
+
+/* When a blip is hovered, reduce opacity of all other blips and all quadrants */
+.homepage-radar-container.blip-hovered .blip:not(:hover),
+.homepage-radar-container.blip-hovered .q1,
+.homepage-radar-container.blip-hovered .q2,
+.homepage-radar-container.blip-hovered .q3,
+.homepage-radar-container.blip-hovered .q4 {
+  opacity: 0.5;
+}
+
+.active-accordion-blip {
+  opacity: 1 !important; /* Ensure it's fully visible */
+}
+
+.active-accordion-blip .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.margin {
+  margin-right: 2rem;
+}
+
+@media only screen and (max-width: 1080px) {
+  .homepage-radar-container {
+    display: none;
+  }
+}

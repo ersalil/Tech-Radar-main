@@ -1,0 +1,45 @@
+.quadrant-banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  justify-content: center;
+  padding: 0 5%;
+  gap: 10px;
+}
+
+.quadrant-banner h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: calc(1.5rem + 2vw);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 70%;
+  text-shadow: 1px 1px black;
+}
+
+.ant-collapse,
+.ant-collapse-icon-position-start,
+.ant-collapse-ghost,
+.custom-collapse,
+.css-dev-only-do-not-override-nnuwmp,
+.ant-collapse-header,
+.ant-collapse-content-box,
+.ant-collapse-item,
+.ant-collapse-content {
+  border-radius: 0 !important;
+}
+
+.ant-collapse > .ant-collapse-item:last-child > .ant-collapse-header {
+  border-radius: 0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .quadrant-banner h1 {
+    width: 100%;
+  }
+}

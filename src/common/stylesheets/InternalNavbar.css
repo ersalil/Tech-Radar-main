@@ -1,0 +1,38 @@
+
+.internal-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20%;
+    min-height: 50px;
+    flex-wrap: nowrap;
+    background-color: white;
+    box-shadow: 0 0 5px gray;
+    width: 100%;
+    z-index: 999;
+    }
+    
+.internal-navbar-sticky{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    background-color: white;
+    box-shadow: 0 0 5px gray;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    }
+    
+    .internal-navbar a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .internal-navbar a:hover{
+        color: brown;
+    }
+    

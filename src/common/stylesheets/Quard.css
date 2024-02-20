@@ -1,0 +1,90 @@
+.custom-ui-container {
+  display: flex;
+  justify-content: center !important;
+  padding: 50px;
+  gap: 5%;
+
+}
+
+.custom-ui-quadrant {
+  width: 512px;      /* Ensure it's above other content */
+}
+
+.custom-ui-accordion {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: left;
+  gap: 30px;
+}
+
+.techniques-header {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  border-bottom: #d5d9db solid 1px;
+}
+
+.quard {
+  padding-top: 0px;
+  position: sticky;   
+  top: 80px;           
+  z-index: 10;
+}
+
+.radar {
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1064px;
+  position: relative;
+}
+
+.internal-radar-container.blip-hovered .blip:not(:hover) {
+  opacity: 0.5;
+}
+
+/* When a quadrant is hovered, reduce opacity of all other quadrants */
+.internal-radar-container.hovered .q1:not(.active),
+.internal-radar-container.hovered .q2:not(.active),
+.internal-radar-container.hovered .q3:not(.active),
+.internal-radar-container.hovered .q4:not(.active) {
+  opacity: 0.5;
+}
+
+/* When a quadrant is hovered, reduce opacity of all blips not belonging to that quadrant */
+.internal-radar-container.hovered .blip:not(.active-quadrant-blip) {
+  opacity: 0.5;
+}
+
+/* When a blip is hovered, reduce opacity of all other blips and all quadrants */
+.internal-radar-container.blip-hovered .blip:not(:hover),
+.internal-radar-container.blip-hovered .q1,
+.internal-radar-container.blip-hovered .q2,
+.internal-radar-container.blip-hovered .q3,
+.internal-radar-container.blip-hovered .q4 {
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 992px) {
+  .custom-ui-container{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 50px 10%;
+  }
+
+  .custom-ui-accordion{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-ui-quadrant {
+    display: none;
+  }
+}

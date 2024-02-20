@@ -1,0 +1,83 @@
+.mobile-radar-main {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 50px;
+  min-height: calc(100vh - 384px);
+}
+.mobile-radar-grid {
+  display: grid;
+  justify-content: space-between;
+  align-content: center;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mr-grid-item div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  color: white;
+  font-size: calc(20px + 2vw);
+  font-weight: bold;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.mr-grid-item div:hover {
+  box-shadow: 0px 0px 3px gray;
+}
+
+@media only screen and (max-width: 1080px) {
+  .mobile-radar-main {
+    display: flex;
+  }
+  .mr-grid-item div {
+    height: 136px;
+    width: 294px;
+    font-size: 1.5rem;
+    font-weight: 630;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mr-grid-item div {
+    font-size: 1.125rem;
+    font-weight: 630;
+    height: 103px;
+    letter-spacing: 0;
+    line-height: 1.5;
+    width: 14pc;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .mr-grid-item div {
+    height: 81px;
+    width: 174px;
+    font-size: 1rem;
+    font-weight: 630;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .mr-grid-item div {
+    font-size: 0.75rem;
+    font-weight: 630;
+    height: 70px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .mr-grid-item div {
+    font-size: 0.65rem;
+    font-weight: 630;
+    height: 59px;
+    width: 126px;
+  }
+}

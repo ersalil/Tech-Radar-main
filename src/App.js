@@ -40,7 +40,7 @@ function App() {
         </Routes>
       </Router>
       <div className="footer">
-        © {currentYear} Uprevol Technologies LLC. All rights reserved.
+        © {currentYear} Created by Salil Agrawal All rights reserved.
       </div>
     </Fragment>
   );

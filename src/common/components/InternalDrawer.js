@@ -31,12 +31,7 @@ function InternalDrawer() {
         footerStyle={{ padding: 0 }}
       >
         <div className="mobile-drawer">
-          // <img
-          //   height={150}
-          //   className="drawer-logo"
-          //   src="/uprevollogo.png"
-          //   alt="Sentioza"
-          // />
+          // <img height={150} className="drawer-logo" src="/uprevollogo.png" alt="Sentioza" />
           <div className="drawer-links">
             <a href="/">Search</a>
             <a href="/techniques">Techniques</a>
